@@ -4,5 +4,5 @@
 
 def roll
   array = [1, 2, 3, 4, 5, 6]
-  return rand(array._i)
+  return rand(array.to_i)
 end
